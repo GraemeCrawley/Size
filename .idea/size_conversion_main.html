@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="website.css">
+    <meta charset="UTF-8">
+    <title>Clothing Size Conversion</title>
+
+</head>
+<body>
+    <div class="col-sm-4 col-sm-offset-4" id="title">
+        <h1>Welcome to Size</h1>
+    </div>
+
+    <div class="row" id="content">
+        <div id="questions">
+            <h3>Enter your bust: <input type="text" name="bust"></h3>
+            <h3>Enter your waist: <input type="text" name="waist"></h3>
+            <h3>Enter your jean waist: <input type="text" name="jean"></h3>
+            <h3>Enter your hip: <input type="text" name="hip"></h3>
+        </div>
+
+        <div id="button-content">
+            <button onclick="myFunction()">Submit</button>
+            <div id="button-works">
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+</html>
+<script>
+    function myFunction() {
+        document.getElementById("button-works").innerHTML = "Hello World";
+    }
+</script>

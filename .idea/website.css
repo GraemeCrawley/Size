@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("clothing-store.jpg");
+    background-size: 100%;
+    background-position-y:-70%;
+    background-repeat:no-repeat;
+    background-color: black;
+}
+
+@media only screen and (max-width:400px) {
+    body {
+        background-image:none;
+        background-color:black;
+    }
+}
+
+#title{
+    position:relative;
+    top:20px;
+    center:0;
+    width:100%;
+    height:100%;
+    color: white;
+}
+
+#content {
+    width: 60%;
+    height: 50%;
+    background-color: white;
+    border-radius: 25px;
+
+    position: absolute;
+
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+}
+
+#questions {
+    display:block;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-left:50px;
+    margin-right:auto;
+}
+
+
+#button-content {
+    margin-top:5%;
+    margin-left: 40%;
+}
